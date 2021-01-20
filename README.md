@@ -7,6 +7,8 @@ Anggota :
 1957051003 Finka Marisa Geananda Sufie
 (Kelas A)
 
+### ER Diagram
+```mermaid
 erDiagram
           admin ||..|| pesanan : is
           pesanan ||..|| dessertbox : is
@@ -36,3 +38,4 @@ erDiagram
             varchar Alamat
             varchar Nomor_tlpn
         }
+```

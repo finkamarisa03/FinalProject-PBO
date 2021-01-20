@@ -7,6 +7,45 @@ Anggota :
 1957051003 Finka Marisa Geananda Sufie
 (Kelas A)
 
+### Class Diagram
+```mermaid
+classDiagram
+	pesanan <|-- admin
+	pesanan <|-- customer
+	pesanan <|-- dessertbox
+    
+    class pesanan{
+      +int Id_pesanan
+	  +int Jumlah_pesanan
+	  +desimal Total
+      +data Tgl_pesan
+      +created timestamp
+      
+    }
+    
+    class admin{
+      +varchar username
+      +varchar password
+      +created timestamp
+    }
+	
+	class customer{
+      +int Id_customer
+	  +varchar Nama
+	  +varchar Alamat
+      +varchar Nomor_tlpn
+      +created timestamp
+      
+    }
+    
+    class dessertbox{
+      +varchar kode_variant
+      +varchar nama
+	  +varchar size
+	  +decimal Harga
+      +created timestamp
+    }
+
 ### ER Diagram
 ```mermaid
 erDiagram

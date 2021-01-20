@@ -45,6 +45,7 @@ classDiagram
 	  +decimal Harga
       +created timestamp
     }
+```
 
 ### ER Diagram
 ```mermaid

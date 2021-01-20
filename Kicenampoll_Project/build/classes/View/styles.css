@@ -1,0 +1,11 @@
+/* 
+    Created on : Jan 20, 2021, 7:30:18 PM
+    Author     : ACER
+*/
+
+-parent{
+    -fx-background-color: transparent;
+}
+-pane{
+    -fx-background-color: #2196f3;
+}

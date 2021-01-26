@@ -16,8 +16,8 @@ classDiagram
     
     class pesanan{
       +int Id_pesanan
-	  +int Jumlah_pesanan
-	  +desimal Total
+      +int Jumlah_pesanan
+      +desimal Total
       +data Tgl_pesan
       +created timestamp
       
@@ -29,10 +29,10 @@ classDiagram
       +created timestamp
     }
 	
-	class customer{
+    class customer{
       +int Id_customer
-	  +varchar Nama
-	  +varchar Alamat
+      +varchar Nama
+      +varchar Alamat
       +varchar Nomor_tlpn
       +created timestamp
       
@@ -41,8 +41,8 @@ classDiagram
     class dessertbox{
       +varchar kode_variant
       +varchar nama
-	  +varchar size
-	  +decimal Harga
+      +varchar size
+      +decimal Harga
       +created timestamp
     }
 ```

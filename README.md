@@ -10,7 +10,7 @@ Anggota :
 ### Class Diagram
 ```mermaid
 classDiagram
-	pesanan <|-- admin
+	pesanan <|-- user
 	pesanan <|-- customer
 	pesanan <|-- dessertbox
     
@@ -23,7 +23,7 @@ classDiagram
       
     }
     
-    class admin{
+    class user{
       +varchar username
       +varchar password
       +created timestamp

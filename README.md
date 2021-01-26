@@ -50,10 +50,10 @@ classDiagram
 ### ER Diagram
 ```mermaid
 erDiagram
-          admin ||..|| pesanan : is
+          user ||..|| pesanan : is
           pesanan ||..|| dessertbox : is
           pesanan ||..|| customer : is
-        admin {
+        user {
             varchar username
             password varchar
         }
